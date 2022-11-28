@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <header>
+       
+        <div id="subit">
+            <h1>Main Consoles</h1>
+          
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="criadores.html"><li>Creators</li></a>
+            <a href="https://www.playstation.com/pt-br/support/"><li>Playstation Support</li></a>
+            <A href="https://support.xbox.com/pt-BR/"><li> Xbox Support</li></A>
+            <a href="login.html"><li>Entrar</li></a>
+        </ul>
+
+
+
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1><span>Entre</span> com a sua conta</h1>
+        </div>
+
+        <form>
+            <input type="text" placeholder="login" id="login">
+            <input type="email" placeholder="email" id="email">
+            <input type="password" placeholder="senha"id="senha">
+            <input type="submit" onclick="logar(); return false">
+        </form>
+        <script>
+            function logar(){
+              var session_start 
+              var login = document.getElementById('login').value;
+              var senha = document.getElementById('senha').value;
+              var email =document.getElementById('email').value;
+        
+              if(login == "saulo" && senha == "saulo" && email == "saulo@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "vitor" && senha == "vitor" && email == "vitor@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "giulia" && senha == "giulia" && email == "giulia@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "daniel" && senha == "daniel" && email == "daniel@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "lucas" && senha == "lucas" && email == "lucas@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "gustavo" && senha == "gustavo" && email == "gustavo@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "felipe" && senha == "felipe" && email == "felipe@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "victor" && senha == "victor" && email == "victor@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "raphael" && senha == "raphael" && email == "raphael@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+              }else if(login == "gabriel" && senha == "gabriel" && email == "gabriel@email.com"){
+                alert('Sucesso');
+            location.href = "playstationnews.html";
+             
+      
+            session_start();
+            $_SESSION['login'] = $_POST['login'];
+        
+              }else{
+        
+        
+                alert('Usuario ou senha incorretos')
+            }
+        
+            }
+        
+        </script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Limpar formatações padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+strong {
+    font-size: 16.5px;
+}
+
+/* Inico - layout */
+
+#area-cabecalho {
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #CCC;
+    color: bisque;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+/* Fim - layout */
+
+
+
+/* Inicio - Formatacoes gerais */
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 15px;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: #CCC;
+    background: #4e4e4e;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Fim - Formatacoes gerais */
+
+
+
+/* Inicio - Formatacoes do menu */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(46, 46, 237);
+    transition: 0.3s all;
+}
+
+A{
+    color: white;
+}
+
+A:hover{
+    color: rgb(241, 83, 78);
+    transition: 0.3s all;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color: #FFF;
+    padding: 5px 12px;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
+}
+
+/* Fim - Formatacoes do menu */
